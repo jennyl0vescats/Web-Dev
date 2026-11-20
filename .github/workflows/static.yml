@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './Web-Dev/yoga11'
+          path: './Web-Dev'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
