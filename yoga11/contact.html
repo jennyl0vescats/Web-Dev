@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path of Light Yoga Studio :: Contact</title>
+    <link href="yoga.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+    <header class="home"><h1>Path of Light Yoga Studio</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="inbox">
+    <h2>Contact Path of Light Yoga Studio</h2>
+    <p>Fill out the form below to contact Path of Light Yoga Studio. All information is required.</p>
+    <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+    <div id="form"><label for="myName">Name:</label></div>
+    <div id="form"><input type="text" name="myName" id="myName" required></div>
+    <div id="form"><label for="myEmail">E-mail:</label></div>
+    <div id="form"><input type="email" name="myEmail" id="myEmail" required></div>
+    <div id="form"><label for="myRefer">How did you hear about us?</label></div>
+    <div id="form"><input type="text" name="myRefer" id="myRefer" list="referral">
+    <datalist id="referral">
+        <option value="Google" label="Google">
+        <option value="Bing" label="Bing">
+        <option value="Facebook" label="Facebook">
+        <option value="Friend" label="Friend">
+        <option value="Radio Ad" label="Radio Ad">
+    </datalist>
+    </div>
+    <div id="form"><label for="myComments">Comments:</label></div>
+    <div id="form"><textarea name="myComments" id="myComments" cols="20" rows="2"></textarea></div>
+    <div id="form"><input type="submit" value="Send Now"></div>
+    </form>
+    </div>
+    <br>
+    <footer>Copyright &copy; 2020 Path of Light Yoga Studio<br>jennifer@marchis.com</footer>
+    </div>
+</body>
+</html>
